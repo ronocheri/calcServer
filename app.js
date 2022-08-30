@@ -26,7 +26,7 @@ app.post('/api/calc',(req,res)=>{
         const result=calcRes(first,second,oper)
         console.log(result);
         console.log(parseFloat(result)%2);
-        const color=((parseFloat(result)%2==0)?'red':'green')
+        const color=((parseFloat(result)%2==0)?'green':'red')
         
         res.status(200).json({
             'result':result+ '',

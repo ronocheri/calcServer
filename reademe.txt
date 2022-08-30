@@ -1,0 +1,35 @@
+Hey, I've tested the server side and it seems to work well:
+
+Api URL: http://localhost:3000/api/calc
+
+input example:
+{
+	"firstNum":"6",
+	"secondNum":"3",
+	"oper":"/"
+	
+}
+
+output:
+{
+    "result": "2",
+    "color": "green"
+}
+
+input example:
+{
+	"firstNum":"6",
+	"secondNum":"2",
+	"oper":"/"
+	
+}
+
+output:
+{
+    "result": "3",
+    "color": "red"
+}
+
+I've added the option for getting an answer as a JSON Object which has 2 attributes as you said.
+
+If the result is even color=green, else "color": "red"
