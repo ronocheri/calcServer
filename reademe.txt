@@ -2,6 +2,8 @@ Hey, I've tested the server side and it seems to work well:
 
 Api URL: http://localhost:3000/api/calc
 
+run the server side with: node app.js (at pot 3000)
+
 input example:
 {
 	"firstNum":"6",
